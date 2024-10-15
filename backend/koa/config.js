@@ -7,11 +7,11 @@
  */
 const SERVER_HOST = 'http://localhost';
 const SERVER_PORT = 5000;
-const DATABASE_HOST = '';
+const DATABASE_HOST = 'http://localhost';
 const DATABASE_PORT = 3306;
-const DATABASE_USER = '';
-const DATABASE_PASSWORD = '';
-const DATABASE_NAME = '';
+const DATABASE_USER = 'mars';
+const DATABASE_PASSWORD = '123456';
+const DATABASE_NAME = 'mars';
 
 /**
  * 飞书应用配置，用来发送飞书消息

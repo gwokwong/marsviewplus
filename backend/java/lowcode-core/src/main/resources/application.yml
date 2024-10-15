@@ -27,9 +27,9 @@ server:
 mybatis:
   jdbc:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url:
-    username:
-    password:
+    url: jdbc:mysql://localhost:3306/mars?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Shanghai
+    username: mars
+    password: 123456
   # mybatis对应的实体类
   mapper-locations: classpath:com/**/mapper/**/*.xml
   type-aliases-package: com.**.domain
